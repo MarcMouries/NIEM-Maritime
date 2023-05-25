@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_data_mapping_definition">
+    <sn_ihub_data_mapping_definition action="DELETE">
+        <integration_table>sys_data_source</integration_table>
+        <published_source_structure/>
+        <record_id>9dcdad194743e9505d6c8fd4f16d432e</record_id>
+        <source_structure/>
+        <sys_class_name>sn_ihub_data_mapping_definition</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-05-25 20:25:45</sys_created_on>
+        <sys_id>e9cd65594743e9505d6c8fd4f16d43a7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NIEM Maritime" source="sn_niem_m">41d3c6bb97aa2110709c1400f153afe0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Maritime">41d3c6bb97aa2110709c1400f153afe0</sys_scope>
+        <sys_update_name>sn_ihub_data_mapping_definition_e9cd65594743e9505d6c8fd4f16d43a7</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-05-25 20:25:46</sys_updated_on>
+    </sn_ihub_data_mapping_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NIEM Maritime">41d3c6bb97aa2110709c1400f153afe0</application>
+        <file_path/>
+        <instance_id>1d68f923dbbe199407072f17d496199e</instance_id>
+        <instance_name>appengine4govdemo</instance_name>
+        <name>sn_ihub_data_mapping_definition_e9cd65594743e9505d6c8fd4f16d43a7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ihub_data_mapping_definition"><sn_ihub_data_mapping_definition action="INSERT_OR_UPDATE"><integration_table>sys_data_source</integration_table><published_source_structure/><record_id>9dcdad194743e9505d6c8fd4f16d432e</record_id><source_structure/><sys_class_name>sn_ihub_data_mapping_definition</sys_class_name><sys_created_by>Marc.Mouries</sys_created_by><sys_created_on>2023-05-25 20:25:45</sys_created_on><sys_id>e9cd65594743e9505d6c8fd4f16d43a7</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="NIEM Maritime" source="sn_niem_m">41d3c6bb97aa2110709c1400f153afe0</sys_package><sys_policy/><sys_scope display_value="NIEM Maritime">41d3c6bb97aa2110709c1400f153afe0</sys_scope><sys_update_name>sn_ihub_data_mapping_definition_e9cd65594743e9505d6c8fd4f16d43a7</sys_update_name><sys_updated_by>Marc.Mouries</sys_updated_by><sys_updated_on>2023-05-25 20:25:46</sys_updated_on></sn_ihub_data_mapping_definition></record_update>]]></payload>
+        <payload_hash>777479687</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>f110a4d4478311103d2cb28a436d4323</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-05-25 20:26:58</sys_created_on>
+        <sys_id>530e295d8703e95031a07558dabb3521</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1885497db400000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-05-25 20:26:58</sys_updated_on>
+        <type>Integration Data Mapping Definition</type>
+        <update_guid>5f0e295d7603e950b47e4b0f1c450720</update_guid>
+        <update_guid_history>5f0e295d7603e950b47e4b0f1c450720:0,1b0e295d2603e950067091e69040bb1d:0,35cdad191443e95075030901d92d933b:1809537950,edcd6559e243e95063feb2123e1ec3a8:-1776503827</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">9b0e295d8703e95031a07558dabb3526</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-05-25 20:26:58</sys_created_on>
+        <sys_db_object display_value="" name="sn_ihub_data_mapping_definition">sn_ihub_data_mapping_definition</sys_db_object>
+        <sys_id>65eb8246b3b54810b531c038543860e4</sys_id>
+        <sys_metadata>e9cd65594743e9505d6c8fd4f16d43a7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NIEM Maritime" source="sn_niem_m">41d3c6bb97aa2110709c1400f153afe0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Maritime">41d3c6bb97aa2110709c1400f153afe0</sys_scope>
+        <sys_scope_delete display_value="">13b16bacc548450084a56bc4bac61490</sys_scope_delete>
+        <sys_update_name>sn_ihub_data_mapping_definition_e9cd65594743e9505d6c8fd4f16d43a7</sys_update_name>
+        <sys_update_version display_value="sn_ihub_data_mapping_definition_e9cd65594743e9505d6c8fd4f16d43a7">530e295d8703e95031a07558dabb3521</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-05-25 20:26:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

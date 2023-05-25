@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="302ce738474b29505d6c8fd4f16d4375" extends="sys_metadata" label="Port" max_length="40" name="sn_niem_m_port" type="collection">
+        <element label="Country" max_length="32" name="country" reference="sn_niem_country" type="reference"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="UN LOCODE" max_length="40" name="un_locode" type="string"/>
+        <index name="index">
+            <element name="country"/>
+        </index>
+    </element>
+</database>

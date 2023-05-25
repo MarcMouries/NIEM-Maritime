@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="sn_niem_m.vessel_admin" name="sn_niem_m.vessel_admin">2362aebb8762611031a07558dabb3566</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-05-08 22:09:13</sys_created_on>
+        <sys_id>6762aebb8762611031a07558dabb3567</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2362aebb8762611031a07558dabb3566</sys_name>
+        <sys_package display_value="NIEM Maritime" source="sn_niem_m">41d3c6bb97aa2110709c1400f153afe0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Maritime">41d3c6bb97aa2110709c1400f153afe0</sys_scope>
+        <sys_update_name>sys_embedded_help_role_6762aebb8762611031a07558dabb3567</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-05-08 22:09:13</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

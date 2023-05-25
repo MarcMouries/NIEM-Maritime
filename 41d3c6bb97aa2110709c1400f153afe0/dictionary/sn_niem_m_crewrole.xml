@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="debb09dd474fa9505d6c8fd4f16d43aa" extends="sys_metadata" label="Crew Role" max_length="40" name="sn_niem_m_crewrole" type="collection">
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+    </element>
+</database>

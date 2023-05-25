@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>New nBmASkbi45vvLXkuWcXshoIIAZAcR0xX-Query Results</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>nBmASkbi45vvLXkuWcXshoIIAZAcR0xX-Query Results</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Query Builder Results" name="Query Builder Results">235e1454474311103d2cb28a436d431e</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-13 03:32:13</sys_created_on>
+        <sys_id>b9b2549147b621105d6c8fd4f16d43b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>nBmASkbi45vvLXkuWcXshoIIAZAcR0xX-Query Results</sys_name>
+        <sys_package display_value="NIEM Maritime" source="sn_niem_m">41d3c6bb97aa2110709c1400f153afe0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Maritime">41d3c6bb97aa2110709c1400f153afe0</sys_scope>
+        <sys_update_name>sys_wizard_answer_b9b2549147b621105d6c8fd4f16d43b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-13 03:32:13</sys_updated_on>
+        <table/>
+        <target_url>sn_niem_m_u_cmdb_qb_result_6403408f59d3d8160f3f81e90a54c7ffe2ecb132.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NIEM Maritime">41d3c6bb97aa2110709c1400f153afe0</application>
+        <file_path/>
+        <instance_id>1d68f923dbbe199407072f17d496199e</instance_id>
+        <instance_name>appengine4govdemo</instance_name>
+        <name>sys_wizard_answer_b9b2549147b621105d6c8fd4f16d43b9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>New nBmASkbi45vvLXkuWcXshoIIAZAcR0xX-Query Results</answer><button_label/><dependent_value/><element/><name>nBmASkbi45vvLXkuWcXshoIIAZAcR0xX-Query Results</name><next_question/><order>100</order><payload_name/><question display_value="Query Builder Results" name="Query Builder Results">235e1454474311103d2cb28a436d431e</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-13 03:32:13</sys_created_on><sys_id>b9b2549147b621105d6c8fd4f16d43b9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>nBmASkbi45vvLXkuWcXshoIIAZAcR0xX-Query Results</sys_name><sys_package display_value="NIEM Maritime" source="sn_niem_m">41d3c6bb97aa2110709c1400f153afe0</sys_package><sys_policy/><sys_scope display_value="NIEM Maritime">41d3c6bb97aa2110709c1400f153afe0</sys_scope><sys_update_name>sys_wizard_answer_b9b2549147b621105d6c8fd4f16d43b9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-13 03:32:13</sys_updated_on><table/><target_url>sn_niem_m_u_cmdb_qb_result_6403408f59d3d8160f3f81e90a54c7ffe2ecb132.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-1127524071</payload_hash>
+        <record_name>nBmASkbi45vvLXkuWcXshoIIAZAcR0xX-Query Results</record_name>
+        <reverted_from/>
+        <source>f0a8c6b387ee211031a07558dabb3525</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-13 03:32:13</sys_created_on>
+        <sys_id>75b2549147b621105d6c8fd4f16d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188132a83d20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-13 03:32:13</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>79b25491a0b62110f39b7323405282ba</update_guid>
+        <update_guid_history>79b25491a0b62110f39b7323405282ba:-1127524071</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-22 21:41:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>466dded7eac543dc815fc8741be44a10</sys_id>
+        <sys_metadata>b9b2549147b621105d6c8fd4f16d43b9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>nBmASkbi45vvLXkuWcXshoIIAZAcR0xX-Query Results</sys_name>
+        <sys_package display_value="NIEM Maritime" source="sn_niem_m">41d3c6bb97aa2110709c1400f153afe0</sys_package>
+        <sys_parent display_value="Query Builder Results">235e1454474311103d2cb28a436d431e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Maritime">41d3c6bb97aa2110709c1400f153afe0</sys_scope>
+        <sys_scope_delete display_value="">13b16bacc548450084a56bc4bac61490</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_b9b2549147b621105d6c8fd4f16d43b9</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_b9b2549147b621105d6c8fd4f16d43b9">75b2549147b621105d6c8fd4f16d43bb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-22 21:41:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

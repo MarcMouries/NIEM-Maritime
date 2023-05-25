@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="2d62eabb8762611031a07558dabb35da" extends="sys_metadata" label="Vessel Type" max_length="40" name="sn_niem_m_vessel_type" type="collection">
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+    </element>
+</database>

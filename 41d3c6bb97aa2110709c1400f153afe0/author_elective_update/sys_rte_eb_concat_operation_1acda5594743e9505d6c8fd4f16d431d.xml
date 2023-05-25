@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_concat_operation">
+    <sys_rte_eb_concat_operation action="DELETE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <joining_string/>
+        <name>CONCAT_sn_ihub_target_code</name>
+        <operation_group/>
+        <order>9999</order>
+        <source_sys_rte_eb_field/>
+        <source_sys_rte_eb_fields>12cda5594743e9505d6c8fd4f16d4315,92cda5594743e9505d6c8fd4f16d4317</source_sys_rte_eb_fields>
+        <sys_class_name>sys_rte_eb_concat_operation</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-05-25 20:25:49</sys_created_on>
+        <sys_id>1acda5594743e9505d6c8fd4f16d431d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CONCAT_sn_ihub_target_code</sys_name>
+        <sys_package display_value="NIEM Maritime" source="sn_niem_m">41d3c6bb97aa2110709c1400f153afe0</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Timezone Data Mapping_etl_ihub">6dcd61594743e9505d6c8fd4f16d43ad</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_sn_niem_m_timezone">56cda1194743e9505d6c8fd4f16d437e</sys_rte_eb_entity>
+        <sys_scope display_value="NIEM Maritime">41d3c6bb97aa2110709c1400f153afe0</sys_scope>
+        <sys_update_name>sys_rte_eb_concat_operation_1acda5594743e9505d6c8fd4f16d431d</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-05-25 20:25:49</sys_updated_on>
+        <target_sys_rte_eb_field display_value="sn_ihub_target_code">12cda5594743e9505d6c8fd4f16d4315</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Concatenation">4e38102a73b333002b6265a751ab9e1f</type>
+    </sys_rte_eb_concat_operation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NIEM Maritime">41d3c6bb97aa2110709c1400f153afe0</application>
+        <file_path/>
+        <instance_id>1d68f923dbbe199407072f17d496199e</instance_id>
+        <instance_name>appengine4govdemo</instance_name>
+        <name>sys_rte_eb_concat_operation_1acda5594743e9505d6c8fd4f16d431d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_concat_operation"&gt;&lt;sys_rte_eb_concat_operation action="INSERT_OR_UPDATE"&gt;&lt;conditional_fields/&gt;&lt;conditional_script&gt;&lt;![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i &lt; batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]&gt;&lt;/conditional_script&gt;&lt;is_conditional&gt;false&lt;/is_conditional&gt;&lt;joining_string/&gt;&lt;name&gt;CONCAT_sn_ihub_target_code&lt;/name&gt;&lt;operation_group/&gt;&lt;order&gt;9999&lt;/order&gt;&lt;source_sys_rte_eb_field/&gt;&lt;source_sys_rte_eb_fields&gt;12cda5594743e9505d6c8fd4f16d4315,92cda5594743e9505d6c8fd4f16d4317&lt;/source_sys_rte_eb_fields&gt;&lt;sys_class_name&gt;sys_rte_eb_concat_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Marc.Mouries&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-05-25 20:25:49&lt;/sys_created_on&gt;&lt;sys_id&gt;1acda5594743e9505d6c8fd4f16d431d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;CONCAT_sn_ihub_target_code&lt;/sys_name&gt;&lt;sys_package display_value="NIEM Maritime" source="sn_niem_m"&gt;41d3c6bb97aa2110709c1400f153afe0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="Timezone Data Mapping_etl_ihub"&gt;6dcd61594743e9505d6c8fd4f16d43ad&lt;/sys_rte_eb_definition&gt;&lt;sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_sn_niem_m_timezone"&gt;56cda1194743e9505d6c8fd4f16d437e&lt;/sys_rte_eb_entity&gt;&lt;sys_scope display_value="NIEM Maritime"&gt;41d3c6bb97aa2110709c1400f153afe0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_concat_operation_1acda5594743e9505d6c8fd4f16d431d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Marc.Mouries&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-05-25 20:25:49&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_field display_value="sn_ihub_target_code"&gt;12cda5594743e9505d6c8fd4f16d4315&lt;/target_sys_rte_eb_field&gt;&lt;target_sys_rte_eb_fields/&gt;&lt;type display_value="Concatenation"&gt;4e38102a73b333002b6265a751ab9e1f&lt;/type&gt;&lt;/sys_rte_eb_concat_operation&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-98791669</payload_hash>
+        <record_name>CONCAT_sn_ihub_target_code</record_name>
+        <reverted_from/>
+        <source>f0a8c6b387ee211031a07558dabb3525</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-05-25 20:25:49</sys_created_on>
+        <sys_id>1ecda5594743e9505d6c8fd4f16d431f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1885496cd300000001</sys_recorded_at>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-05-25 20:25:49</sys_updated_on>
+        <type>RTE Entity Concatenation Operation</type>
+        <update_guid>12cda559de43e95005c0b0052f97cf1f</update_guid>
+        <update_guid_history>12cda559de43e95005c0b0052f97cf1f:-98791669</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-05-25 20:26:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_concat_operation">sys_rte_eb_concat_operation</sys_db_object>
+        <sys_id>6384ecae2d2b4b608f635b4aec4b3640</sys_id>
+        <sys_metadata>1acda5594743e9505d6c8fd4f16d431d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CONCAT_sn_ihub_target_code</sys_name>
+        <sys_package display_value="NIEM Maritime" source="sn_niem_m">41d3c6bb97aa2110709c1400f153afe0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Maritime">41d3c6bb97aa2110709c1400f153afe0</sys_scope>
+        <sys_scope_delete display_value="">13b16bacc548450084a56bc4bac61490</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_concat_operation_1acda5594743e9505d6c8fd4f16d431d</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_concat_operation_1acda5594743e9505d6c8fd4f16d431d">1ecda5594743e9505d6c8fd4f16d431f</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-05-25 20:26:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

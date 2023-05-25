@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="22cda5594743e9505d6c8fd4f16d4394" extends="sys_import_set_row" label="Timezone Data Mapping" max_length="40" name="sn_niem_m_ihub_import_9dcdad194743e9505d6c8fd4f16d432d" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Code" label="Code" max_length="40" name="u_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="40" name="u_description" type="string"/>
+    </element>
+</database>

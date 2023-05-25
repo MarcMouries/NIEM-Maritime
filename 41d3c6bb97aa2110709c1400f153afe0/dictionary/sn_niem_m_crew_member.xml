@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5268d55547cfa9505d6c8fd4f16d4362" label="Crew Member" max_length="40" name="sn_niem_m_crew_member" type="collection">
+        <element label="Crew Role" max_length="32" name="crew_role" reference="sn_niem_m_crewrole" type="reference"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element label="Vessel" max_length="32" name="vessel" reference="sn_niem_m_vessel" type="reference"/>
+        <index name="index">
+            <element name="crew_role"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+        <index name="index3">
+            <element name="vessel"/>
+        </index>
+    </element>
+</database>

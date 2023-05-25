@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6aa88ab387ee211031a07558dabb35b8" label="Vessel" max_length="40" name="sn_niem_m_vessel" type="collection">
+        <element label=" Call Sign " max_length="40" name="call_sign" type="string"/>
+        <element label="Hull number" max_length="40" name="hull_number" type="string"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
