@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="update_synch=true" db_object_id="e9f999d547cfa9505d6c8fd4f16d436d" extends="sys_metadata" label="Timezone" max_length="40" name="sn_niem_m_timezone" type="collection">
         <element label="Code" max_length="4" name="code" type="string"/>
-        <element label="Description" max_length="20" name="description" type="string"/>
+        <element display="true" label="Description" max_length="20" name="description" type="string"/>
     </element>
 </database>
