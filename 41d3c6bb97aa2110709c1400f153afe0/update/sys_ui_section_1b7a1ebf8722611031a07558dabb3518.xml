@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="1b7a1ebf8722611031a07558dabb3518" sys_domain="global" table="sn_niem_m_vessel" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>full_name</element>
+            <position>1</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-05-27 14:12:52</sys_created_on>
+            <sys_id>f69baeb1474fad505d6c8fd4f16d4332</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_niem_m_vessel" sys_domain="global" view="Default view">1b7a1ebf8722611031a07558dabb3518</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-05-27 14:12:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

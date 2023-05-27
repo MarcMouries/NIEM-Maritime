@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>sn_niem_m.VesselUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>VesselUtils</name>
+        <script><![CDATA[var VesselUtils = Class.create();
+VesselUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    type: 'VesselUtils',
+
+    isPublic: function() {
+        return false;
+    },
+
+    /*
+    var currentUserId = gs.getUser().getID();
+    var vesselUtil = new sn_niem_m.VesselUtils();
+    var result = vesselUtil.findVesselByUserId(currentUserId);
+    gs.info( JSON.stringify( result, null, 2 ));
+    */
+    findVesselByUserId: function(server_userId) {
+        var client_userId = this.getParameter('sysparm_user_id');
+        var userId = client_userId ? client_userId : server_userId;
+
+        var crew_member_list = new GlideRecord('sn_niem_m_crew_member');
+
+        if (crew_member_list.get('user', userId) && !crew_member_list.vessel.nil()) {
+            return { 
+                status: 'success', 
+                data: { 
+                    sys_id: crew_member_list.vessel.sys_id.getDisplayValue(), 
+                    vessel_name: crew_member_list.vessel.getDisplayValue() 
+                } 
+            };
+        } else {
+            var message;
+            if (crew_member_list.isValid()) {
+                message = 'User is not part of any vessel.';
+            } else {
+                message = 'No crew member record found for this user.';
+            }
+            return { 
+                status: 'error', 
+                data: { 
+                    sys_id: null, 
+                    message: message
+                } 
+            };
+        }
+    },
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2023-05-27 03:49:19</sys_created_on>
+        <sys_id>edcbd871478f6d505d6c8fd4f16d437b</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>VesselUtils</sys_name>
+        <sys_package display_value="NIEM Maritime" source="sn_niem_m">41d3c6bb97aa2110709c1400f153afe0</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NIEM Maritime">41d3c6bb97aa2110709c1400f153afe0</sys_scope>
+        <sys_update_name>sys_script_include_edcbd871478f6d505d6c8fd4f16d437b</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2023-05-27 04:29:19</sys_updated_on>
+    </sys_script_include>
+</record_update>
