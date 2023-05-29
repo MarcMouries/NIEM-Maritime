@@ -4,8 +4,12 @@
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;return current.name + ' (' + current.hull_number + ')';&#13;&#10;&#13;&#10;})(current);" display="true" label="Full name" max_length="50" name="full_name" type="string" virtual="true"/>
         <element label="Hull number" max_length="40" name="hull_number" type="string"/>
         <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Operator" max_length="32" name="operator" reference="sn_niem_entity" type="reference"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
+            <element name="operator"/>
+        </index>
+        <index name="index2">
             <element name="sys_class_name"/>
         </index>
     </element>
