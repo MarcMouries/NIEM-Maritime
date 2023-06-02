@@ -3,17 +3,47 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_name</element>
-            <list_id display_value="sn_niem_m_timezone" element="NULL" name="sn_niem_m_timezone" parent="NULL" relationship="NULL" sys_domain="global" view="499c9050470311103d2cb28a436d43f1">126fed994743e9505d6c8fd4f16d43f2</list_id>
+            <list_id display_value="sn_niem_m_timezone" element="NULL" name="sn_niem_m_timezone" parent="NULL" relationship="NULL" sys_domain="global" view="499c9050470311103d2cb28a436d43f1">aab05afe47c365905d6c8fd4f16d43f1</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2023-05-25 20:32:54</sys_created_on>
-            <sys_id>5e6fed994743e9505d6c8fd4f16d43f2</sys_id>
+            <sys_created_on>2023-05-30 14:49:21</sys_created_on>
+            <sys_id>26b05afe47c365905d6c8fd4f16d43f2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2023-05-25 20:32:54</sys_updated_on>
+            <sys_updated_on>2023-05-30 14:49:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>code</element>
+            <list_id display_value="sn_niem_m_timezone" element="NULL" name="sn_niem_m_timezone" parent="NULL" relationship="NULL" sys_domain="global" view="499c9050470311103d2cb28a436d43f1">aab05afe47c365905d6c8fd4f16d43f1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-05-30 14:49:21</sys_created_on>
+            <sys_id>2ab05afe47c365905d6c8fd4f16d43f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-05-30 14:49:21</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>description</element>
+            <list_id display_value="sn_niem_m_timezone" element="NULL" name="sn_niem_m_timezone" parent="NULL" relationship="NULL" sys_domain="global" view="499c9050470311103d2cb28a436d43f1">aab05afe47c365905d6c8fd4f16d43f1</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2023-05-30 14:49:21</sys_created_on>
+            <sys_id>2eb05afe47c365905d6c8fd4f16d43f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2023-05-30 14:49:21</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -27,10 +57,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>Marc.Mouries</sys_created_by>
-            <sys_created_on>2023-05-25 20:32:54</sys_created_on>
+            <sys_created_on>2023-05-30 14:49:21</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>126fed994743e9505d6c8fd4f16d43f2</sys_id>
+            <sys_id>aab05afe47c365905d6c8fd4f16d43f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>sn_niem_m_timezone</sys_name>
             <sys_package display_value="NIEM Maritime" source="sn_niem_m">41d3c6bb97aa2110709c1400f153afe0</sys_package>
@@ -38,7 +68,7 @@
             <sys_scope display_value="NIEM Maritime">41d3c6bb97aa2110709c1400f153afe0</sys_scope>
             <sys_update_name>sys_ui_list_sn_niem_m_timezone_sys_ref_list</sys_update_name>
             <sys_updated_by>Marc.Mouries</sys_updated_by>
-            <sys_updated_on>2023-05-25 20:32:54</sys_updated_on>
+            <sys_updated_on>2023-05-30 14:49:21</sys_updated_on>
             <sys_user/>
             <view display_value="Reference List" name="sys_ref_list">499c9050470311103d2cb28a436d43f1</view>
             <view_name/>
