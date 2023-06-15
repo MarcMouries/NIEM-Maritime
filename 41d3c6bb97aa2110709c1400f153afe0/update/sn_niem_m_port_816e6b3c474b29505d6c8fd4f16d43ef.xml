@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sn_niem_m_port">
     <sn_niem_m_port action="INSERT_OR_UPDATE">
         <country display_value="United States of America">37a5aaa74765d91024e32782846d4389</country>
-        <name>Port of Norfolk</name>
+        <name>Port of Norfolk, VA</name>
         <sys_class_name>sn_niem_m_port</sys_class_name>
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2023-05-24 16:30:43</sys_created_on>
         <sys_id>816e6b3c474b29505d6c8fd4f16d43ef</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Port of Norfolk</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Port of Norfolk, VA</sys_name>
         <sys_package display_value="NIEM Maritime" source="sn_niem_m">41d3c6bb97aa2110709c1400f153afe0</sys_package>
         <sys_policy/>
         <sys_scope display_value="NIEM Maritime">41d3c6bb97aa2110709c1400f153afe0</sys_scope>
         <sys_update_name>sn_niem_m_port_816e6b3c474b29505d6c8fd4f16d43ef</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2023-05-24 16:30:43</sys_updated_on>
+        <sys_updated_on>2023-06-05 22:05:10</sys_updated_on>
         <un_locode>USORF</un_locode>
     </sn_niem_m_port>
 </record_update>
