@@ -25,6 +25,7 @@ VesselUtils.getCrewMemberList = function(shipId, fields) {
     if (shipId) {
         var crew_member_list = new GlideRecord('sn_niem_m_crew_member');
         crew_member_list.addQuery('vessel', shipId);
+        crew_member_list.orderBy('user.last_name');
         crew_member_list.query();
 
         while (crew_member_list.next()) {
@@ -93,13 +94,13 @@ VesselUtils.findVesselByUserId = function(server_userId) {
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2023-05-27 03:49:19</sys_created_on>
         <sys_id>edcbd871478f6d505d6c8fd4f16d437b</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>VesselUtils</sys_name>
         <sys_package display_value="NIEM Maritime" source="sn_niem_m">41d3c6bb97aa2110709c1400f153afe0</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="NIEM Maritime">41d3c6bb97aa2110709c1400f153afe0</sys_scope>
         <sys_update_name>sys_script_include_edcbd871478f6d505d6c8fd4f16d437b</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2023-07-06 17:46:57</sys_updated_on>
+        <sys_updated_on>2023-07-06 18:24:42</sys_updated_on>
     </sys_script_include>
 </record_update>
