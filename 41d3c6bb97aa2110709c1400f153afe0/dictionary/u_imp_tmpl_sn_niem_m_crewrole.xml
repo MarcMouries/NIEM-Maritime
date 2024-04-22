@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3d72306493b54e50df5f3ca47aba103c" extends="sys_import_set_row" label="Imp Tmpl Sn Niem M Crewrole" max_length="40" name="u_imp_tmpl_sn_niem_m_crewrole" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Code" label="Code" max_length="40" name="u_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="40" name="u_description" type="string"/>
+    </element>
+</database>

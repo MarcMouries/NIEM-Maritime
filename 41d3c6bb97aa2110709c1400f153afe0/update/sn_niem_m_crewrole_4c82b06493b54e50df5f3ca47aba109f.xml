@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_niem_m_crewrole">
+    <sn_niem_m_crewrole action="INSERT_OR_UPDATE">
+        <code>Second Officer</code>
+        <description>Second Officer</description>
+        <sys_class_name>sn_niem_m_crewrole</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 21:15:10</sys_created_on>
+        <sys_id>4c82b06493b54e50df5f3ca47aba109f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Second Officer</sys_name>
+        <sys_package display_value="NIEM Maritime" source="sn_niem_m">41d3c6bb97aa2110709c1400f153afe0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NIEM Maritime">41d3c6bb97aa2110709c1400f153afe0</sys_scope>
+        <sys_update_name>sn_niem_m_crewrole_4c82b06493b54e50df5f3ca47aba109f</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 21:15:10</sys_updated_on>
+    </sn_niem_m_crewrole>
+</record_update>
